@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 from google import genai
 
 api_key = st.secrets["GEMINI_API_KEY"]
